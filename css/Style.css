@@ -7,8 +7,8 @@ body
     width:80% ;
     text-transform: capitalize;
     font-size: large;
-    background: linear-gradient(120deg,#6E85B7,#000000);
-    color: white;    
+    background: (hwb(182 42% 15%),#000000);
+    color: #000000;    
 }
 .info
 {
@@ -20,15 +20,15 @@ body
 {
     display: flex;
     padding: 10px;
-    background-color: #16003B;
-    color: white;
+    background-color: #61c4ef;
+    color: #000000;
     justify-content: space-evenly;
     width: 100%;
     border-radius: 10px 10px 0px 0px;
 }
 .buttons a
 {
-    color: white;
+    color: #000000;
     padding: 5px;
     margin-right: 5px;
     
@@ -36,7 +36,7 @@ body
 
 .footer
 {
-    background-color: #B5D7F9;
+    background-color: #61c4ef;
     padding: 20px;
     text-align: center;
     margin-top: 390px;
@@ -51,7 +51,7 @@ body
 }
 .info_1 th
 {
-    color: white;
+    color: #000000;
     font-weight: normal;
     font-size: medium;
     text-decoration: underline;
